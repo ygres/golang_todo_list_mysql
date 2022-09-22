@@ -3,7 +3,7 @@ database/
 *.class
 go.mod
 go.sum
-.apiserver
+apiserver
 # Compiled Python bytecode
 *.py[cod]
 .vscode/
