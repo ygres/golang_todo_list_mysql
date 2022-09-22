@@ -1,0 +1,3 @@
+BindAddr = ":3000"
+LogLevel = "debug"
+DatabaseURL = "root:112233@tcp(127.0.0.1:3306)/todolist?parseTime=true"
