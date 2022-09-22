@@ -4,7 +4,7 @@ build:
 
 .PHONY: test
 test:
-	go test -v -race -timeout 30s ./...
+	go test -v -race -timeout 30s ./internal/app/handler
 
 .PHONY: install
 install:
@@ -13,6 +13,7 @@ install:
 	go get github.com/go-sql-driver/mysql
 	go get github.com/golang-migrate/migrate/v4
 	go get github.com/gorilla/mux
+	go get github.com/stretchr/testify/assert
 
 .PHONE: migrate
 migrate:

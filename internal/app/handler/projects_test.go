@@ -15,6 +15,7 @@ var (
 )
 
 func Test_GetAllProject(t *testing.T) {
+	//p := []*model.Project{}
 
 	s := &apiserver.Server{}
 	s.Initialize(databaseURL)
